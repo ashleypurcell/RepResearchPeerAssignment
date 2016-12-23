@@ -171,3 +171,5 @@ comparisonplot <- ggplot(stepsperdayplot, aes(interval, steps)) +
     ggtitle("Number of Steps Per Interval by Day Type")
 print(comparisonplot)
 ````
+
+
