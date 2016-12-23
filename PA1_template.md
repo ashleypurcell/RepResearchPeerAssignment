@@ -35,6 +35,8 @@ library(ggplot2)
 ggplot(data = totalstepseachday, aes(x=steps)) + geom_histogram(fill = "#000000") + ggtitle("Steps Taken Per Day") + labs(x = "Number of Steps per Day", y = "Number of Times in a Day")
 ````
 
+(C:\Users\ashley.purcell\Desktop\Projects\Week2-New\Rplot1.png)
+
 ###2. Calculate and report the mean and median total number of steps taken per day.
 
 ````{r}
